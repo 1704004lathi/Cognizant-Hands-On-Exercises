@@ -10,7 +10,7 @@ class Product {
 
     public Product(int id, String name, String category) {
         this.id = id;
-        this.name = name.toLowerCase(); // For case-insensitive search
+        this.name = name.toLowerCase(); 
         this.category = category;
     }
 
@@ -54,6 +54,6 @@ public class SearchFunction {
             System.out.println("No products found for: " + query);
         }
 
-        sc.close(); // Close scanner to avoid resource leak
+        sc.close(); 
     }
 }
